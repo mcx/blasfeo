@@ -6314,6 +6314,7 @@ NAME:
 
 
 
+#if 0
 // common inner routine with file scope
 //
 // store u generalized
@@ -6643,6 +6644,7 @@ NAME:
 	ret
 
 	FUN_END(inner_store_u_4x4_gen_lib4)
+#endif
 #endif
 
 
@@ -7804,6 +7806,7 @@ NAME:
 
 
 
+#if 0
 //                                     1      2              3          4          5             6            7          8        9            10         11       12      13      14      15
 // void kernel_dsyrk_nt_u_4x4_gen_lib4(int k, double *alpha, double *A, double *B, double *beta, int offsetC, double *C, int sdc, int offsetD, double *D, int sdd, int m0, int m1, int n0, int n1);
 
@@ -7869,6 +7872,7 @@ NAME:
 	ret
 
 	FUN_END(kernel_dsyrk_nt_u_4x4_gen_lib4)
+#endif
 
 
 
